@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 大帅的技术小栈
 subtitle: ''
-description: ''
+description: '专注于互联网架构、分布式、devops'
 keywords:
 author: John Doe
 language: en
@@ -103,5 +103,26 @@ theme: yilia
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: git@github.com:Changer0914/shuai-blog-page.git
+  repository: git@github.com:Changer0914/changer0914.github.io.git
   branch: master
+
+
+# 使用 主题 yilia 时 需要添加
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
