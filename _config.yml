@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 大帅的技术小栈
-subtitle: ''
-description: '专注于互联网架构、分布式、devops'
+title: 净霆的技术小栈
+subtitle: '保持专注'
+description: '专注于开放平台、互联网架构、分布式'
 keywords:
-author: John Doe
+author: jingting
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://www.dotoday.cn
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -40,7 +40,8 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+# 是否创建文件夹
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
